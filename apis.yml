@@ -1,0 +1,62 @@
+aid: openldap
+name: OpenLDAP
+description: >-
+  OpenLDAP is an open source implementation of the Lightweight Directory
+  Access Protocol (LDAP) that provides directory server daemons, client
+  libraries, and utilities for managing distributed directory services.
+  The suite includes slapd (the standalone LDAP daemon), lloadd (a load
+  balancer), protocol libraries, and command-line tools for searching,
+  modifying, and administering directory data. OpenLDAP does not expose
+  a REST API; access is via the LDAP protocol over TCP using SASL, simple
+  bind, or TLS-secured authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Directory Services
+  - LDAP
+  - Identity
+  - Authentication
+  - Open Source
+  - Infrastructure
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/openldap/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: openldap:ldap-protocol
+    name: OpenLDAP Directory Service
+    description: >-
+      LDAP v3 protocol interface provided by the slapd directory server for
+      reading, writing, and managing hierarchical directory entries.
+      Authentication is via simple bind, SASL mechanisms, or TLS client
+      certificates rather than a REST API.
+    humanURL: https://www.openldap.org/doc/
+    baseURL: ldap://localhost:389
+    tags:
+      - LDAP
+      - Directory
+      - Protocol
+    properties:
+      - type: Documentation
+        url: https://www.openldap.org/doc/
+      - type: Admin Guide
+        url: https://www.openldap.org/doc/admin26/
+      - type: Manual Pages
+        url: https://www.openldap.org/software/man.cgi
+common:
+  - type: Website
+    url: https://www.openldap.org
+  - type: Documentation
+    url: https://www.openldap.org/doc/
+  - type: Download
+    url: https://www.openldap.org/software/download/
+  - type: FAQ
+    url: https://www.openldap.org/faq/
+  - type: Mailing Lists
+    url: https://www.openldap.org/lists/
+  - type: Source Code
+    url: https://git.openldap.org/openldap/openldap
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
