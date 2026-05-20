@@ -45,6 +45,8 @@ apis:
       - type: Manual Pages
         url: https://www.openldap.org/software/man.cgi
 common:
+  - type: GitHubOrganization
+    url: https://github.com/openldap
   - type: Website
     url: https://www.openldap.org
   - type: Documentation
