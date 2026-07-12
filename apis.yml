@@ -45,6 +45,8 @@ apis:
       - type: Manual Pages
         url: https://www.openldap.org/software/man.cgi
 common:
+  - type: DomainSecurity
+    url: security/openldap-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/openldap
   - type: Website
