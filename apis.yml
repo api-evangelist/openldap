@@ -10,7 +10,18 @@ description: >-
   a REST API; access is via the LDAP protocol over TCP using SASL, simple
   bind, or TLS-secured authentication.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openldap.png
 tags:
   - Directory Services
   - LDAP
