@@ -38,7 +38,7 @@ tags:
   - LDAP
   - Identity
   - Authentication
-  - Open-Source
+  - Open Source
   - Infrastructure
 tags_raw:
   - Directory Services
@@ -47,6 +47,7 @@ tags_raw:
   - Authentication
   - Open Source
   - Infrastructure
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/openldap/refs/heads/main/apis.yml
 created: '2026-05-11'
